@@ -1,0 +1,59 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - san_pham
+  - ao_len
+  - khuyen_mai
+  - khieu_nai
+  - the
+  - loi_the
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Công ty 5Star xin kính chào quý khách! Có thể phục vụ gì được cho quý khách ạ?"
+
+  utter_thanks:
+  - text: "Tuyệt vời! Không có gì ạ!"
+
+  utter_goodbye:
+  - text: "Xin tạm biệt quý khách! Mong có thể phục vụ quý khách lần sau"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by 5star."
+
+  utter_san_pham:
+  - text: "Cửa hàng hiện đang có các mặt hàng áo len. Quý khách muốn tìm hiểu sản phẩm nào ạ?"
+
+  utter_khuyen_mai:
+  - text: "Hiện tại cửa hàng đang có chương trình giảm giá 10% cho thẻ thành viên"
+
+  utter_khieu_nai:
+  - text: "Xin hỏi anh, chị đang gặp vấn đề gì ạ? Xin anh chị để lại số điện thoại liên hệ, sẽ có nhân viên tư vấn trực tiếp cho  anh chị ạ!"
+
+  utter_loi_the:
+  - text: "Những khách hàng đặc biệt có thẻ thành viên sẽ nhận được ưu đãi 10% khi mua hàng tại 5star"
+
+  utter_unclear:
+  - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách. "
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_unclear
+  - utter_thanks
+  - utter_khuyen_mai
+  - utter_khieu_nai
+  - act_len
+  - utter_san_pham
+  - act_the
+  - utter_loi_the
+  - act_khuyen_mai
+  - utter_iamabot

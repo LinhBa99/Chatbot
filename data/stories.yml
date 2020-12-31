@@ -1,0 +1,59 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 1hoi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thanks
+  - action: utter_thanks
+  - intent: san_pham
+  - action: utter_san_pham
+
+- story: 2hoi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khuyen_mai
+  - action: utter_khuyen_mai
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: thuongdb
+  steps:
+  - intent: khuyen_mai
+  - action: act_khuyen_mai
+
+- story: thuong1
+  steps:
+  - intent: khieu_nai
+  - action: utter_khieu_nai
+
+- story: thuong2
+  steps:
+  - intent: ao_len
+  - action: act_len
+
+
+- story: thuong5
+  steps:
+  - intent: loi_the
+  - action: utter_loi_the
+
+- story: thuong6
+  steps:
+  - intent: the
+  - action: act_the
+
+- story: thuong7
+  steps:
+  - intent: san_pham
+  - action: utter_san_pham

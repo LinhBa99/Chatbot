@@ -1,0 +1,118 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - xin chào
+    - chào bạn
+    - hellu
+    - hey
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+    - bạn ơi
+    - anh ơi
+    - chị ơi
+    - cháu ơi
+    - hello shop
+    - alo
+    - chào
+    - có ai ở đây không?
+
+
+- intent: goodbye
+  examples: |
+    - bye bye
+    - good by
+    - cee you later
+    - tạm biệt
+    - bye
+    - tạm biệt
+    - chào tạm biệt
+    - chào tạm biệt em
+    - tạm biệt em
+    - tạm biệt em nhé
+    - goodbye
+
+
+- intent: san_pham
+  examples: |
+    - shop có những sản phẩm nào
+    - cửa hàng có những sản phẩm nào
+    - shop có gì bán không
+    - tôi có thể mua gì ở shop
+    - shop bán những gì
+    - cửa hàng của bạn bán những cái gì đấy
+    - cửa hàng của bạn bán những gì đấy
+
+- intent: thanks
+  examples: |
+    - chuẩn
+    - hay
+    - siêu
+    - tuyệt
+    - cám ơn
+    - thanks
+    - thank you
+    - ok
+    - ok em
+    - cảm ơn em
+    - cảm ơn em nhiều nhé
+    - cảm ơn
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ao_len
+  examples: |
+    - tôi muốn mua áo len
+    - áo len
+    - ao len
+    - mua áo len
+    - shop có bán áo len không
+    - cửa hàng có bán áo len không
+    - tôi muốn mua áo len được không
+    - có bán áo len không
+    - cho xem mẫu áo len đê
+
+- intent: the
+  examples: |
+    - tôi muốn làm thẻ thành viên thì thế nào
+    - làm sao để có thẻ thành viên
+    - làm thẻ thành viên thế nào
+    - làm thẻ thành viên
+    - làm thẻ
+
+- intent: loi_the
+  examples: |
+    - lọi ích thẻ thành viên
+    - lợi ích thẻ
+    - làm thẻ thành viên thì được lợi j
+    - ưu đãi của thành viên
+    - ưu đãi thẻ thành viên
+
+- intent: khieu_nai
+  examples: |
+    - khiếu nại
+    - tôi muốn khiếu nại
+    - sản phẩm lỗi, tôi muốn khiếu nại
+    - khiếu nại sản phẩm
+    - khieu nai
+    - shop làm ăn lừa đảo
+    - shop lừa đảo
+    - lừa đảo
+
+- intent: khuyen_mai
+  examples: |
+    - shop có chương trình khuyến mại nào không
+    - chương trình khuyên mại sắp tới
+    - chương trình khuyến mại đang có
+    - shop đang có chương trình gì không
+    - shop đang có chương trình khuyến mại gì không
+    - chương trình khuyến mại
